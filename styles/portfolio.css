@@ -125,7 +125,6 @@ header {
   text-align: center;
   padding: 130px 150px;
 }
-
 .contact {
   display: flex;
   justify-content: center;
@@ -175,3 +174,28 @@ header {
   margin-bottom: 10px;
 }
 /*what id do related style ends here */
+/* Resume related styles starts here */
+.resume {
+  display: flex;
+  text-align: left;
+  gap: 20px;
+}
+.resume-education,
+.resume-experience h3 {
+  color: rgb(71, 71, 71);
+  font-size: 30px;
+  font-weight: 700;
+}
+.resume-details h4 {
+  color: rgb(71, 71, 71);
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.resume-details h6 {
+  color: rgb(117, 117, 117);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+/* Resume related styles ends here */
