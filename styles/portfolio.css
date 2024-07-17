@@ -39,7 +39,7 @@ p {
 /* header related work start */
 header {
   background: rgb(255, 248, 243);
-  background-image: url("../images/header_bg.png"), url("../images/developer.png");
+  background-image: url('../images/header_bg.png'), url('../images/developer.png');
   background-repeat: no-repeat;
   background-position: bottom right, bottom left;
 }
