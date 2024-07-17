@@ -203,3 +203,76 @@ header {
   margin-top: 30px;
 }
 /* Resume related styles ends here */
+
+/* footer related styles starts here */
+footer {
+  background-color: rgb(255, 248, 243);
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-icon,
+.message-section {
+  width: 48%;
+}
+
+.footer-heading {
+  color: rgb(24, 24, 24);
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background-size: cover;
+}
+
+.facebook {
+  background-image: url("../images/icons/facebook.png");
+}
+.twitter {
+  background-image: url("../images/icons/twitter.png");
+}
+.instagram {
+  background-image: url("../images/icons/insta.png");
+}
+
+.message-section {
+  padding: 40px;
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  margin-bottom: 15px;
+  padding: 18px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+
+textarea {
+  height: 130px;
+}
+
+.message-btn {
+  align-self: flex-start;
+}
+/* footer related styles ends here */
