@@ -198,4 +198,8 @@ header {
   font-weight: 600;
   margin-bottom: 10px;
 }
+.btn{
+  text-align: center;
+  margin-top: 30px;
+}
 /* Resume related styles ends here */
