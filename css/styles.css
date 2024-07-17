@@ -39,8 +39,7 @@ p {
 /* header related work start */
 header {
   background: rgb(255, 248, 243);
-  background-image: url("../images/header_bg.png"),
-    url("../images/developer.png");
+  background-image: url('../images/header_bg.png'), url('../images/developer.png');
   background-repeat: no-repeat;
   background-position: bottom right, bottom left;
 }
@@ -142,36 +141,21 @@ header {
   font-size: 20px;
   font-weight: 700;
   color: rgb(71, 71, 71);
-} /* about section ends here */
-/*what id do related style starts here */
-.what-i-do-container {
-  text-align: center;
+}/* about section ends here */
+
+/* what i do related style starts here */
+.container .what-i-do{
+  border: 2px solid salmon;
 }
-.what-i-do {
-  padding: 0px 100px 0px 100px;
-  text-align: center;
+.skill-container{
+  border: 2px solid slateblue;
 }
-.skill-container {
-  display: flex;
-  gap: 25px;
-  margin-top: 50px;
+.skill{
+  border: 2px solid aqua;
 }
-.skill {
-  text-align: left;
-  padding: 15px;
-  border-radius: 5px;
-  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-  background: rgb(255, 255, 255);
-}
-.skill img {
-  object-fit: cover;
-  max-width: 100%;
-}
-.skill .skill-name {
+.skill-name{
   color: rgb(24, 24, 24);
-  font-size: 20px;
-  font-weight: 700;
-  margin-top: 10px;
-  margin-bottom: 10px;
+font-size: 20px;
+font-weight: 700;
 }
-/*what id do related style ends here */
+/* what i do related style ends here */
